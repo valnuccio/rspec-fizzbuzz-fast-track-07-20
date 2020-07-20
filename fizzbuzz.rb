@@ -1,14 +1,16 @@
 def fizzbuzz(num)
-  if num %3 == 0
-    puts "fizz"
+  if num % 3 == 0
+    puts "Fizz"
     elsif num % 5 == 0
-    puts "buzz"
+    puts "Buzz"
   elsif num % 5 == 0 && num % 3 == 0
-  puts "fizzbuzz"
+  puts "FizzBuzz"
 else
   puts "nil"
 end
 end
 
+
+def fizzbuzz(3)
   # Don't forget! This file needs to be 'required' in its spec file
 # See README.md for instructions on how to do this
